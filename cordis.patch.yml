@@ -1,0 +1,9 @@
+# dsh-pending-review-glow bundle patch
+#
+# One insert row: the package's "." export is the Host half (a plain Cordis
+# plugin); the package's `dsh.client` declaration makes the Web app load
+# `./client` as the browser half.
+- insert:
+    - id: pending-review-glow
+      name: 'dsh-pending-review-glow'
+      config: {}

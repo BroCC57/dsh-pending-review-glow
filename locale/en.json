@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Session State Glow",
+    "description": "Highlights sidebar session rows by state: red breathing while an approval waits for you, steady yellow while the agent is working, green breathing after a run finishes until you open that row."
+  }
+}
