@@ -1,5 +1,7 @@
 # dsh-pending-review-glow
 
+Highlight every row of the DSH sidebar session list by state — pending approval, running, just finished — with one visual language (an inset border plus a subtle background tint), where colour and animation are the only differences. Zero dependencies, no build step.
+
 给左侧会话列表的每一行加状态高亮，三种状态共用同一套「内描边 + 淡底」视觉语言，只用颜色和动效区分：
 
 | 状态 | 颜色 | 动效 | 含义 |
