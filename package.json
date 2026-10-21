@@ -1,8 +1,7 @@
 {
   "name": "dsh-pending-review-glow",
   "version": "0.2.0",
-  "private": true,
-  "description": "把左侧会话列表中正在等待审批（待审核）的那一行用红色呼吸动画高亮。",
+  "description": "Highlights DSH sidebar session rows by state: pending approval, running, just finished.",
   "type": "module",
   "exports": {
     ".": "./lib/index.js",
@@ -20,6 +19,15 @@
   "engines": {
     "node": ">=20"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BroCC57/dsh-pending-review-glow.git"
+  },
+  "homepage": "https://github.com/BroCC57/dsh-pending-review-glow#readme",
+  "bugs": {
+    "url": "https://github.com/BroCC57/dsh-pending-review-glow/issues"
+  },
+  "author": "BroCC57",
   "dsh": {
     "bundle": {
       "patch": "./cordis.patch.yml"
